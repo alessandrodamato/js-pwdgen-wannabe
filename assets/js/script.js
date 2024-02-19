@@ -10,6 +10,6 @@ console.log(firstname, lastname, favColor);
 const passGenerator = firstname + lastname + favColor + 24;
 
 // password generata
-console.log('Password: ', passGenerator);
+console.log('Password:', passGenerator);
 
 document.getElementById('Password').innerHTML = passGenerator;
